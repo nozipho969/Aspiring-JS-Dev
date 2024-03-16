@@ -1,18 +1,16 @@
 body {
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/297/original/no-more-days.jpeg?1710585306");
+    background: #212529;
     margin: 10px 30px;
-    background-size: cover;
-
 }
 
 h3{
 font-size: 36px;
 line-height: normal;
 color: #d117c2;
-margin-top: 150px;
+margin-top: 20px;
 }
 
-h5{
+h5{ 
 color: #e8198b;
 }
 
@@ -20,7 +18,7 @@ color: #e8198b;
     margin-top: 0;
 }
 
-.body-links, .about-links {
+.body-links {
     text-decoration: none;
     background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
     color: black;
@@ -31,7 +29,7 @@ color: #e8198b;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.body-links:hover, .about-links:hover{
+.body-links:hover {
     color: #291520;
     background:#c7eafd;
     border: #e8198b;
