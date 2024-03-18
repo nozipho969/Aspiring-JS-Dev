@@ -70,3 +70,10 @@ h6 {
     margin: 10px 0;
 }
 }
+
+footer {
+    font-size: 18px;
+    font-family: monospace;
+    color: rgb(124, 128, 128);
+    text-align: center;
+}
