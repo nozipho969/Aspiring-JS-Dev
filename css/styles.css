@@ -1,16 +1,44 @@
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* 
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+*/
+
 body {
     background: #212529;
     margin: 10px 30px;
 }
 
-h3{
+h1 {
+    font-size: 48px;
+    color: #d117c2;
+    text-align: right
+}
+
+h2 {
+    text-align: ;
+}
+
+h3 {
+    text-align: left;
+}
+
+h3, h2 {
 font-size: 36px;
 line-height: normal;
 color: #d117c2;
-margin-top: 20px;
+margin-top: 15px;
 }
 
 h5{ 
+    text-align: right;
 color: #e8198b;
 }
 
@@ -25,7 +53,6 @@ color: #e8198b;
 
 .hero {
     margin: 160px 30px;
-    text-align: end;
 }
 
 .custom-img {
