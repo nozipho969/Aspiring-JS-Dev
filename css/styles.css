@@ -12,7 +12,7 @@
 */
 
 body {
-  background: #212529;
+  background: #ddbbe7;
   margin: 10px 30px;
 }
 
@@ -23,12 +23,13 @@ body {
 h1 {
   font-size: 48px;
   color: #d117c2;
-  text-align: right;
 }
 
+/*  
 h3 {
   text-align: left;
 }
+*/
 
 h3,
 h2 {
@@ -123,7 +124,7 @@ h6 {
 }
 
 footer {
-  font-size: 18px;
+  font-size: 12px;
   font-family: monospace;
   color: rgb(124, 128, 128);
   text-align: center;
