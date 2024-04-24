@@ -54,11 +54,6 @@ h5 {
 
 .img-fluid {
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 255 255, 0.8);
-}
-
-.meet {
-  margin-top: 0;
 }
 
 .hero {
@@ -69,9 +64,9 @@ h5 {
   text-decoration: none;
   background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
   color: black;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 20px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   flex: 1;
   text-align: center;
