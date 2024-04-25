@@ -123,9 +123,39 @@ footer {
   border-radius: 10px;
   background: #f3bcda;
 }
+.fa-linkedin, .fa-square-twitter, .fa-square-instagram, .fa-github {
+  font-size: 18px;
+  color: var(--main-color);
+  padding: 0 40px;
+  cursor: pointer;
+  
+}
 
+.fa-github:hover{
+  box-shadow: 0 0 7px #ff0095 inset,
+  0 0 7px #ff0095;
+  padding: 5px 5px;
+}
+
+.fa-linkedin:hover{
+  box-shadow: 0 0 7px #ff0095 inset,
+  0 0 7px #ff0095;
+  padding: 5px 5px;
+}
+.fa-square-instagram:hover{
+  box-shadow: 0 0 7px #ff0095 inset,
+  0 0 7px #ff0095;
+  padding: 5px 5px;
+}
+
+.fa-square-twitter:hover{
+  box-shadow: 0 0 7px #ff0095 inset,
+  0 0 7px #ff0095;
+  padding: 5px 5px;
+}
 .social-links {
- 
+ padding: 10px 10px;
+ margin: 10px 10px;
 }
 
 @media only screen and (max-width: 767px) {
