@@ -154,6 +154,7 @@ footer {
   padding: 5px 5px;
 }
 .social-links {
+  border: 1px solid rgb(187, 209, 209);;
  padding: 10px 10px;
  margin: 10px 10px;
 }
