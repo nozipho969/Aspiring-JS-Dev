@@ -6,10 +6,12 @@
 ul {
   list-style: none;
   font-family: "Chakra Petch", sans-serif;
-  font-weight: 600;
-  color: var(--main-color); 
-  display: flex;
-  justify-content: space-around;
+  font-weight: 900;
+}
+
+ul a {
+  text-decoration: none;
+  color: var(--secondary-color); 
 }
 
 .chakra-petch-regular {
@@ -17,15 +19,6 @@ ul {
   font-weight: 700;
   font-style: normal;
 }
-/* 
-.chakra-petch-regular-italic {
-  font-family: "Chakra Petch", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-.navbar-brand {
-}
-*/
 
 body {
   background: #ddbbe7;
@@ -64,8 +57,8 @@ h5 {
   text-decoration: none;
   background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
   color: black;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 10px 40px;
+  border-radius: 30px;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   flex: 1;
@@ -76,10 +69,11 @@ h5 {
   text-decoration: none;
   background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
   color: black;
-  margin: 0 20px;
+  margin: 0 15px;
   padding: 10px 40px;
   border-radius: 30px;
-  font-size: 16px;
+  border: none;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   flex: 1;
   text-align: center;
@@ -89,6 +83,13 @@ h5 {
   color: #291520;
   background: #c7eafd;
   border: var(--secondary-color);
+}
+
+.custom-button:hover {
+  color: #291520;
+  background: #c7eafd;
+  border: var(--secondary-color);
+ 
 }
 
 p {
@@ -126,37 +127,18 @@ footer {
 .fa-linkedin, .fa-square-twitter, .fa-square-instagram, .fa-github {
   font-size: 18px;
   color: var(--main-color);
-  padding: 0 40px;
+  padding: 0 25px;
   cursor: pointer;
-  
 }
 
-.fa-github:hover{
-  box-shadow: 0 0 7px #ff0095 inset,
-  0 0 7px #ff0095;
-  padding: 5px 5px;
+.fa-linkedin:hover, .fa-github:hover, .fa-square-twitter:hover, .fa-square-instagram:hover {
+  transform: scale(1.5);
 }
 
-.fa-linkedin:hover{
-  box-shadow: 0 0 7px #ff0095 inset,
-  0 0 7px #ff0095;
-  padding: 5px 5px;
-}
-.fa-square-instagram:hover{
-  box-shadow: 0 0 7px #ff0095 inset,
-  0 0 7px #ff0095;
-  padding: 5px 5px;
-}
-
-.fa-square-twitter:hover{
-  box-shadow: 0 0 7px #ff0095 inset,
-  0 0 7px #ff0095;
-  padding: 5px 5px;
-}
 .social-links {
-  border: 1px solid rgb(187, 209, 209);;
+  border: 1px solid rgb(187, 209, 209);
  padding: 10px 10px;
- margin: 10px 10px;
+ margin: 10px 100px;
 }
 
 @media only screen and (max-width: 767px) {
