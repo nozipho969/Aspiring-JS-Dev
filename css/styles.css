@@ -129,14 +129,20 @@ footer {
   border-radius: 10px;
   background: #f3bcda;
 }
-.fa-linkedin, .fa-square-twitter, .fa-square-instagram, .fa-github {
+.fa-linkedin, 
+.fa-square-twitter, 
+.fa-square-instagram, 
+.fa-github {
   font-size: 18px;
   color: var(--main-color);
   padding: 0 25px;
   cursor: pointer;
 }
 
-.fa-linkedin:hover, .fa-github:hover, .fa-square-twitter:hover, .fa-square-instagram:hover {
+.fa-linkedin:hover, 
+.fa-github:hover, 
+.fa-square-twitter:hover, 
+.fa-square-instagram:hover {
   transform: scale(1.5);
 }
 
