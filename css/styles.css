@@ -58,6 +58,7 @@ h5 {
   margin: 80px 30px;
 }
 
+/* 
 .body-links {
   text-decoration: none;
   background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
@@ -69,6 +70,16 @@ h5 {
   flex: 1;
   text-align: center;
 }
+.body-links:hover {
+  color: #291520;
+  background: #c7eafd;
+  border: var(--secondary-color);
+}
+.body-links {
+  max-width: 40%;
+  margin: 10px ;
+}
+*/
 
 .custom-button {
   text-decoration: none;
@@ -84,11 +95,6 @@ h5 {
   text-align: center;
 }
 
-.body-links:hover {
-  color: #291520;
-  background: #c7eafd;
-  border: var(--secondary-color);
-}
 
 .custom-button:hover {
   color: #291520;
@@ -99,7 +105,7 @@ h5 {
 
 p {
   color: #14080f;
-  font-size: 20px;
+  font-size: 14px;
   margin: 30px 10px;
 }
 
@@ -113,12 +119,13 @@ h6 {
   color: var(--secondary-color);
   margin: 20px 0;
 }
-
+/* 
 .links-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
 }
+ */
 
 footer {
   font-size: 12px;
@@ -132,7 +139,7 @@ footer {
 .fa-linkedin, 
 .fa-square-twitter, 
 .fa-square-instagram, 
-.fa-github {
+ .fa-github {
   font-size: 18px;
   color: var(--main-color);
   padding: 0 25px;
@@ -153,13 +160,6 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-  .links-container {
-    
-  }
-  .body-links {
-    max-width: 40%;
-    margin: 10px;
-  }
   h1 {
     font-size: 36px;
   }
