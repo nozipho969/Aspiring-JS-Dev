@@ -3,6 +3,14 @@
   --secondary-color: #080957;
 }
 
+div .nav-brand {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 ul {
   list-style: none;
   font-family: "Chakra Petch", sans-serif;
@@ -20,10 +28,18 @@ ul a:hover {
   0 0 7px var(--main-color);
 }
 
-a .active {
+ul li a .active {
   box-shadow: 0 0 7px var(--main-color) inset,
   0 0 7px var(--main-color);
 }
+
+/* 
+
+.profile-image {
+
+}
+*/
+
 
 .chakra-petch-regular {
   font-family: "Chakra Petch", sans-serif;
