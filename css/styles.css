@@ -15,30 +15,35 @@ ul {
   list-style: none;
   font-family: "Chakra Petch", sans-serif;
   font-weight: 500;
-  padding: 10px;
+  padding: 10px 15px; 
 }
 
 ul a {
   text-decoration: none;
   color: var(--secondary-color); 
-  padding: 10px;
+  padding: 10px 15px;
 }
 ul a:hover {
   box-shadow: 0 0 7px var(--main-color) inset,
   0 0 7px var(--main-color);
+  padding: 10px 15px;
 }
 
-ul li a .active {
+li .active a {
   box-shadow: 0 0 7px var(--main-color) inset,
   0 0 7px var(--main-color);
+  padding: 0;
 }
 
-/* 
 
 .profile-image {
-
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 5px solid;
+border-image: linear-gradient(to right, #8a2be2, #ff1493);
 }
-*/
+
 
 
 .chakra-petch-regular {
@@ -49,7 +54,7 @@ ul li a .active {
 
 body {
   background: #dbdbeb;
-  margin: 10px 30px;
+  margin: 5px 5px;
 }
 
 
@@ -123,12 +128,16 @@ h5 {
 }
 
 p {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
   color: var(--secondary-color);
   font-size: 14px;
   margin: 30px 10px;
 }
 
 h4 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
   color: var(--main-color);
   margin: 15px;
   padding-top: 10px;
@@ -174,9 +183,18 @@ footer {
 }
 
 .social-links {
+  font-size: 24px;
 border: 1px solid rgb(187, 209, 209);
- padding: 10px 10px;
- margin: 10px 100px;
+ 
+}
+
+.social-links span {
+  margin-right: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media only screen and (max-width: 576px) {
@@ -189,6 +207,10 @@ border: 1px solid rgb(187, 209, 209);
   .social-links {
     width: 30px;
   }
+.profile-image {
+  width: 100px;
+  height: 100px;
+}
   
 }
 
