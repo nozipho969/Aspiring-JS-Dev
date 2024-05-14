@@ -6,6 +6,11 @@
 
 .logo {
   margin-top: 10px;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -21,12 +26,13 @@ ul a {
   color: var(--secondary-color);
   padding: 10px 15px;
 }
-ul a:hover {
+ul a:hover,
+ul a:focus {
   box-shadow: 0 0 7px var(--main-color) inset, 0 0 7px var(--main-color);
   padding: 10px 15px;
 }
 
-li .active a  {
+li .active a {
   box-shadow: 0 0 10px var(--main-color);
 }
 
@@ -37,8 +43,8 @@ li .active a  {
   border: 5px solid var(--main-color);
   padding: 10px 10px;
   margin-bottom: 20px;
-display: block;
-margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .chakra-petch-regular {
@@ -75,15 +81,16 @@ h5 {
 .img-fluid {
   border-radius: 10px;
 }
+/* 
 
 .hero {
   margin: 80px 30px;
 }
+*/
 
 .custom-button {
   text-decoration: none;
   background: #080957;
-  color: var(--secondary-color);
   padding: 10px 40px;
   border-radius: 30px;
   border: none;
@@ -176,6 +183,10 @@ h6 {
   padding-left: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
 footer {
   font-size: 12px;
   font-family: "Chakra Petch", sans-serif;
@@ -223,6 +234,12 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
+  ul {
+    flex-direction: column;
+  }
+  li {
+    margin-bottom: 10px;
+  }
   h1 {
     font-size: 36px;
   }
