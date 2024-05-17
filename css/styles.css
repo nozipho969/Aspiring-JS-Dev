@@ -71,9 +71,9 @@ h5 {
 }
 
 .carousel-item img {
-      max-width: 100%;
-      height: auto;
-      box-shadow: 10px 10px var(--main-color);
+  max-width: 100%;
+  height: auto;
+  box-shadow: 10px 10px var(--main-color);
 }
 
 .img-fluid {
@@ -193,7 +193,6 @@ h6 {
   cursor: pointer;
 }
 
-
 footer {
   font-size: 12px;
   font-family: "Chakra Petch", sans-serif;
@@ -254,7 +253,7 @@ footer {
   }
   .home-buttons {
     margin-left: 30px;
-}
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -267,5 +266,8 @@ footer {
   }
   .home-buttons {
     display: block;
+  }
+  .margin-top {
+    margin-top: 40px;
   }
 }
