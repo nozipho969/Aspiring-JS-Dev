@@ -25,25 +25,10 @@ ul a {
   color: var(--secondary-color);
   padding: 10px 15px;
 }
-ul a:hover,
-ul a:focus {
+ul a:hover {
   box-shadow: 0 0 7px var(--main-color) inset, 0 0 7px var(--main-color);
   padding: 10px 15px;
 }
-
-/* 
-
-.profile-image {
-  width: 150px;
-  height: auto;
-  border-radius: 5px;
-  border: 5px solid var(--main-color);
-  padding: 5px;
-  margin-bottom: 20px;
-  display: block;
-  margin: 0 auto;
-}
-*/
 
 .chakra-petch-regular {
   font-family: "Chakra Petch", sans-serif;
@@ -53,11 +38,12 @@ ul a:focus {
 
 body {
   background: #dbdbeb;
-  margin: 5px 5px;
+  margin: 5px 10px;
 }
 
 h1 {
   color: var(--main-color);
+  text-shadow: 5px 5px 10px var(--main-color);
 }
 
 span {
@@ -68,6 +54,7 @@ span {
 h2,
 h3 {
   font-family: var(--default-font-family);
+  text-shadow: 5px 5px 10px var(--main-color);
   color: var(--main-color);
   margin-top: 15px;
 }
@@ -77,14 +64,16 @@ h5 {
 }
 
 .mock-up {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px var(--secondary-color);
 }
 
 .carousel-item img {
       max-width: 100%;
       height: auto;
+      box-shadow: 10px 10px var(--main-color);
 }
 
 .img-fluid {
@@ -128,7 +117,7 @@ p {
   flex: 1;
   margin: 10px;
   text-align: justify;
-  box-shadow: 0 5px 6px red;
+  box-shadow: 0 5px 6px var(--main-color);
 }
 
 .text-center {
@@ -190,6 +179,21 @@ h6 {
   text-align: center;
 }
 
+.achievement {
+  perspective: 1000px;
+}
+
+.achievement img {
+  transition: transform 0.5s;
+  box-shadow: 10px 10px var(--main-color);
+}
+
+.achievement:hover img {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+
 footer {
   font-size: 12px;
   font-family: "Chakra Petch", sans-serif;
@@ -206,25 +210,23 @@ footer {
   margin: 10px 15px;
 }
 
+.fa-user-graduate,
 .fa-linkedin,
 .fa-square-twitter,
 .fa-square-instagram,
 .fa-github {
-  font-size: 18px;
+  font-size: 30px;
   color: var(--main-color);
   padding: 0 25px;
   cursor: pointer;
 }
 
+.fa-user-graduate:hover,
 .fa-linkedin:hover,
 .fa-github:hover,
 .fa-square-twitter:hover,
 .fa-square-instagram:hover {
   transform: scale(1.5);
-}
-
-.social-links {
-  font-size: 30px;
 }
 
 .social-links span {
@@ -236,11 +238,7 @@ footer {
   color: inherit;
 }
 
-@media only screen and (max-width: 576px) {
-  ul {
-    flex-direction: column;
-  }
-  
+@media only screen and (max-width: 767px) {
   h1 {
     font-size: 36px;
   }
@@ -251,6 +249,12 @@ footer {
     width: 100px;
     height: 100px;
   }
+  .achievement {
+    margin-bottom: 30px;
+  }
+  .home-buttons {
+    margin-left: 30px;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -260,5 +264,8 @@ footer {
   }
   .about-item {
     flex: 1 1 calc(33.33% - 20px);
+  }
+  .home-buttons {
+    display: block;
   }
 }
