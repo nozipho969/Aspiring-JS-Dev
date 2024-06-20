@@ -217,9 +217,9 @@ footer {
 .fa-square-twitter,
 .fa-square-instagram,
 .fa-github {
-  font-size: 24px;
+  font-size: 18px;
   color: var(--main-color);
-  padding: 0 25px;
+  padding: 0 10px;
   cursor: pointer;
 }
 
@@ -241,6 +241,12 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+  nav ul li .name-1,
+  nav ul .name-2,
+  nav ul .name-3,
+  nav ul .name-4 {
+    padding-right: 5px;
+  }
   h1 {
     font-size: 36px;
   }
@@ -256,16 +262,16 @@ footer {
   .skills-img {
     text-align: center;
   }
-  .about-content{
+  .about-content {
     flex: 0 0 100%;
   }
   .fa-user-graduate,
-.fa-linkedin,
-.fa-square-twitter,
-.fa-square-instagram,
-.fa-github {
-  font-size: 18px;
-}
+  .fa-linkedin,
+  .fa-square-twitter,
+  .fa-square-instagram,
+  .fa-github {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
